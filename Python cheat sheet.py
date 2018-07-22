@@ -749,8 +749,7 @@ print(1 + '1' == 2)
 if __name__ == “__main__”:
 
 
-# Sources
+			### REFERENCES ###
 SoloLearn
 
-# Author - Konstantin..1
-1111
+Author: Konstantin Pokhilchuk
