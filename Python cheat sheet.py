@@ -53,6 +53,10 @@
 # * - string multiplication
 	print(2 * 'text')
 	
+# .strip
+	obj = ' text'
+	print(obj.strip()) # 'text'
+	
 # convert variable types
 	print(int('5') + int('2'))
 	
