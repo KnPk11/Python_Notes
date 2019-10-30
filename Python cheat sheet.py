@@ -1,3 +1,5 @@
+# Updated: 2019-10-30
+
 			### MODULES ###
 
 # modules - import extra functionality
@@ -240,7 +242,15 @@
 	# max - returns maximum of a set
 	# abs - returns an absolute value of a number
 	# sum - returns a sum of a set
-
+	
+# other functions
+	# sorted(). sorts the elements of a given iterable in a specific order. Takes optional parameters iterable, key, reverse
+	def sorting_function(f):
+    		return len(f) # sort by length
+	
+	for i in sorted(array, key=sorting_function):
+		
+		
 			### LOOPS ###
 
 #  while loop - executes as many times as needed while condition is true. Different to an if-statement executing only once.
@@ -753,7 +763,10 @@ print(1 + '1' == 2)
 if __name__ == “__main__”:
 
 
+# Author: Konstantin Pokhilchuk
+		
 			### REFERENCES ###
-SoloLearn
+# SoloLearn (Android App)
+# https://www.programiz.com/python-programming/methods/built-in/sorted
 
-Author: Konstantin Pokhilchuk
+
